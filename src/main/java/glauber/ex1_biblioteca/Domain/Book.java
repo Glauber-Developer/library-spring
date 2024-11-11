@@ -4,9 +4,9 @@ public class Book {
     private int id;
     private String titulo;
     private String autor;
-    private String ano;
+    private int ano;
 
-    public Book(int id, String titulo, String autor, String ano) {
+    public Book(int id, String titulo, String autor, int ano) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
@@ -25,7 +25,7 @@ public class Book {
         return autor;
     }
 
-    public String getAno() {
+    public int getAno() {
         return ano;
     }
 
@@ -41,7 +41,7 @@ public class Book {
         this.autor = autor;
     }
 
-    public void setAno(String ano) {
+    public void setAno(int ano) {
         this.ano = ano;
     }
 }
