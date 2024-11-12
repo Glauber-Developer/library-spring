@@ -14,5 +14,4 @@ public class Ex1BibliotecaApplication {
         dotenv.entries().forEach(entry -> System.setProperty(entry.getKey(), entry.getValue()));
 		SpringApplication.run(Ex1BibliotecaApplication.class, args);
 	}
-
 }
